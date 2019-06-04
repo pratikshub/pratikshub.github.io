@@ -1,0 +1,431 @@
+@media (min-width: 500px) {
+  .logo {
+    padding-left: 0%;
+  }
+  .logo-nav {
+    margin-left: 5%;
+  }
+  .navigation {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5%;
+    grid-area: 2/2/2/1;
+  }
+  .navigation > a {
+    font-size: 0.9em;
+  }
+  .donation {
+    padding: 0% 0% 0% 5%;
+    grid-area: 1/2/1/2;
+  }
+  .donation-btn {
+    padding: 5% 10% 5% 10%;
+  }
+  .main-page {
+    background-size: 190% auto;
+    background-position-x: 25%;
+    background-position-y: 85%;
+  }
+  .main-page-content2 {
+    padding: 5% 2% 0% 5%;
+  }
+  .main-page-content2-head {
+    font-size: 2.2em;
+    text-align: left;
+    font-weight: bold;
+    font-family: "Helvetica";
+    margin-bottom: 2%;
+  }
+  .main-page-content2-low {
+    font-size: 1.2em;
+    font-weight: 200;
+    text-align: left;
+    margin-bottom: 5%;
+  }
+  .main-page-content2-top {
+    position: absolute;
+    top: -10%;
+    left: 10%;
+    padding: 2%;
+  }
+  .main-page-lower {
+    padding: 10% 5% 10% 10%;
+  }
+  .main-page-lower-head {
+    padding: 0% 0% 2% 0%;
+  }
+  .main-page-lower-content {
+    padding: 0% 25% 0% 0%;
+  }
+  .main-page-lower-top {
+    background-color: #354463;
+    width: 7em;
+    text-align: center;
+    padding: 2%;
+    position: absolute;
+    top: -5%;
+    left: 40%;
+    color: white;
+    font-size: 0.8em;
+  }
+
+  .what-we-do {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+  }
+  .what-we-do-heading {
+    justify-items: left;
+    padding-top: 5%;
+    margin-bottom: 0%;
+  }
+  .what-we-do-heading > div {
+    font-size: 0.8em;
+    padding: 2%;
+  }
+  .what-we-do-heading-content {
+    text-align: left;
+    font-size: 1.7em;
+  }
+  .what-we-do-div {
+    grid-row-gap: 0;
+    justify-items: center;
+    align-items: center;
+  }
+  .what-we-do-div-content {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 16em;
+    padding-top: 0%;
+    margin-bottom: 15%;
+  }
+  .what-we-do-img {
+    grid-area: 1/1/3/2;
+    width: 110%;
+    top: -25%;
+    left: -5%;
+  }
+  .what-we-do-div-content h3 {
+    grid-area: 1/2/2/3;
+    font-size: 1.1em;
+    padding: 13%;
+  }
+  .what-we-do-div-content p {
+    grid-area: 2/2/4/3;
+    padding: 13%;
+    padding-right: 0;
+    text-align: left;
+    padding-top: 0;
+    font-size: 0.9em;
+  }
+  .what-we-do-div-content-btn {
+    grid-area: 2/1/4/2;
+    font-size: 0.7em;
+    width: 50%;
+  }
+  .climate-change {
+    background-size: 550% auto;
+    background-position-x: 45%;
+    background-position-y: 75%;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr;
+  }
+  .climate-change-head {
+    position: relative;
+    top: 10%;
+    left: 5%;
+  }
+  .climate-change-lower {
+    top: 10%;
+  }
+  .climate-change-head-btn {
+    position: absolute;
+    top: 25%;
+  }
+  .things-to-do {
+    display: block;
+    position: relative;
+  }
+  .slogan {
+    margin: 8%;
+    text-align: left;
+    padding: 5%;
+  }
+  .event,
+  .news {
+    height: auto;
+    display: block;
+    width: 37.5%;
+    text-align: left;
+    padding: 0%;
+    margin-left: 55%;
+    margin-top: 10%;
+  }
+
+  .event > * {
+    margin: 8% 0;
+    font-size: 1em;
+  }
+
+  .news {
+    height: auto;
+    display: block;
+    width: 37.5%;
+    text-align: left;
+    padding: 0%;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  .news > * {
+    margin: 8% 0;
+    font-size: 1em;
+  }
+  .event > img {
+    position: absolute;
+    width: 37.5%;
+    left: 10%;
+    top: 12.9%;
+  }
+  .news > img {
+    position: absolute;
+    width: 37.5%;
+    left: 55%;
+    top: 52.6%;
+  }
+  .event-head {
+    top: 0;
+    width: 50%;
+    text-align: center;
+  }
+  .stories {
+    grid-template-rows: 0.3fr 0.1fr 0.1fr;
+    position: relative;
+  }
+  .stories-head {
+    top: -8%;
+    left: 15%;
+    z-index: 1;
+  }
+  .stories-img {
+    width: 90%;
+    position: relative;
+  }
+  .stories-content {
+    width: 90%;
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
+  }
+  .stories-btn {
+    position: absolute;
+    bottom: -10%;
+    left: 0%;
+    padding: 2% 5% 2% 5%;
+  }
+  .subscribe > p {
+    grid-area: 1/1/2/3;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}
+@media (min-width: 900px) {
+  header {
+    margin: 2%;
+  }
+  .logo-nav {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  .logo {
+    grid-area: 1/1/1/1;
+  }
+  .navigation {
+    grid-area: 1/2/1/2;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0%;
+  }
+  .donation {
+    grid-area: 1/3/1/3;
+  }
+  .main-page {
+    grid-template-columns: 1fr 1fr;
+    background-size: 150% auto;
+    background-position-x: 0%;
+    background-position-y: 45%;
+    grid-template-rows: 1fr;
+  }
+  .main-page-content {
+    grid-area: 1/2/1/2;
+  }
+  .main-page-content2 {
+    grid-area: 1/1/1/1;
+    margin: 20% 15% 20% 15%;
+  }
+  .main-page-content > div {
+    font-size: 4em;
+  }
+  .main-page-content2-top {
+    top: -5%;
+  }
+  .main-page-content2-head {
+    font-size: 2em;
+  }
+  .main-page-content2-low {
+    font-size: 1em;
+  }
+  .main-page-lower {
+    padding: 10% 5% 10% 5%;
+    display: flex;
+  }
+  .main-page-lower-top {
+    font-size: 1em;
+  }
+  .main-page-lower-head {
+    padding: 2% 2% 5% 2%;
+    font-size: 1.5em;
+  }
+  .main-page-lower-content {
+    padding: 1% 0% 1% 1%;
+    font-size: 1.2em;
+  }
+  .what-we-do {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .what-we-do > div {
+    width: 90%;
+  }
+  .what-we-do-heading {
+    display: block;
+    padding-bottom: 4em;
+  }
+  .what-we-do-heading > div {
+    width: 10em;
+  }
+  .what-we-do-heading-content {
+    font-size: 2.5em;
+    text-align: left;
+    padding-top: 1em;
+  }
+
+  .what-we-do-div {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10%;
+  }
+  .what-we-do-div-content {
+    display: block;
+    width: 20%;
+    padding: 0 3%;
+    height: 35em;
+  }
+  .what-we-do-div-content > * {
+    text-align: left;
+    padding-bottom: 1rem;
+  }
+  .what-we-do-img {
+    position: relative;
+    width: 130%;
+    margin-top: -2rem;
+  }
+  .what-we-do-div-content p {
+    text-align: left;
+    padding: 5%;
+    font-size: 0.8em;
+  }
+  .what-we-do-div-content h3 {
+    font-size: 1.3em;
+    text-align: left;
+  }
+
+  .stories {
+    grid-template-rows: 0.5fr;
+    /* grid-template-columns: 1fr 6fr 10fr; */
+    grid-gap: 0%;
+  }
+  .stories-head {
+    top: -15%;
+    left: 50%;
+    z-index: 1;
+    padding: 1% 5% 1% 5%;
+  }
+  .stories-img {
+    width: 100%;
+  }
+  .stories-head-top {
+    grid-area: 1/3/1/3;
+  }
+  .stories-content {
+    width: 50%;
+    position: absolute;
+    bottom: 20%;
+    left: -10%;
+    font-size: 1.2em;
+  }
+  .stories-btn {
+    position: absolute;
+    bottom: 5%;
+
+    padding: 1% 1% 1% 1%;
+  }
+
+  .subscribe {
+    grid-template-columns: 50fr 30fr 20fr;
+    grid-row-gap: 0%;
+    grid-column-gap: 0%;
+    padding: 5% 5% 5% 5%;
+  }
+
+  .subscribe > p {
+    grid-area: 1/1/1/1;
+    font-size: 1em;
+    padding: 0% 5% 0% 0%;
+  }
+
+  .subscribe > input {
+    grid-area: 1/2/1/2;
+    border: none;
+    border-radius: 2em;
+    text-align: center;
+    margin: 5%;
+  }
+
+  .subscribe > button {
+    grid-area: 1/3/1/3;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 3em;
+    margin: 2%;
+  }
+  .foot {
+    display: flex;
+    justify-content: space-around;
+  }
+  .social-link {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+  .help {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+  .title {
+    margin-right: 3%;
+  }
+  .cots {
+    font-family: "FloodFont";
+    font-size: 2.5em;
+    padding-left: 5%;
+  }
+}

@@ -1,0 +1,502 @@
+@import url("https://fonts.googleapis.com/css?family=Rambla&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+@font-face {
+  font-family: "FloodFont";
+  src: url(../flood-std/floodstd.otf);
+  font-weight: bold;
+}
+
+.container {
+  width: 100%;
+  color: #354463;
+}
+
+.logo-nav {
+  display: grid;
+  font-family: "Open Sans";
+  background-color: white;
+  grid-template-columns: 1fr 1fr;
+}
+
+.logo {
+  font-weight: bold;
+  padding-left: 10%;
+}
+
+.navigation {
+  font-family: "Rambla", sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-weight: 200;
+}
+
+.navigation > a {
+  text-decoration: none;
+  color: #354463;
+  font-size: 1em;
+}
+
+.donation {
+  margin: 3% 0% 3% 5%;
+  grid-area: 2/1 / span 1 / span 2;
+}
+
+.donation-btn {
+  background-color: #c1f7d5;
+  border: none;
+  color: #354463;
+  text-align: center;
+  font-size: 1em;
+  cursor: pointer;
+  padding: 5% 30% 5% 30%;
+  border-radius: 3em;
+}
+
+.main-page {
+  height: 35em;
+  background-image: url("../home/annie-spratt-135307-unsplash.jpeg");
+  background-size: 350% auto;
+  background-position-x: 45%;
+  background-position-y: 85%;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.main-page-content > div {
+  font-family: "FloodFont";
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 2.75em;
+  margin: 10% 0% 0% 10%;
+}
+
+.main-page-content2 {
+  background-color: white;
+  margin: 5% 10% 15% 10%;
+  padding: 10% 2% 0% 2%;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.main-page-content2-head {
+  font-size: 1.4em;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Helvetica";
+}
+
+.main-page-content2-low {
+  font-size: 1em;
+  font-weight: 200;
+  text-align: center;
+}
+
+.main-page-content2-low > a {
+  text-decoration: underline;
+  color: #354463;
+}
+
+.main-page-content2-top {
+  background-color: #354463;
+  width: 7em;
+  text-align: center;
+  padding: 5%;
+  position: absolute;
+  top: -10%;
+  left: 30%;
+  color: white;
+  font-size: 0.8em;
+}
+
+.main-page-lower-main {
+  position: relative;
+  font-family: "Helvetica";
+}
+
+.main-page-lower {
+  background-color: #c1f7d5;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 10% 5% 10% 5%;
+  color: #354463;
+}
+
+.main-page-lower-head {
+  font-weight: 800;
+  padding: 2% 2% 2% 2%;
+  font-size: 1.2em;
+}
+
+.main-page-lower-content {
+  font-weight: 300;
+  padding: 1% 1% 1% 1%;
+  font-size: 1em;
+}
+
+.main-page-lower-top {
+  background-color: #354463;
+  width: 7em;
+  text-align: center;
+  padding: 5%;
+  position: absolute;
+  top: -10%;
+  left: 35%;
+  color: white;
+  font-size: 0.8em;
+}
+
+.what-we-do {
+  font-family: "Open Sans", sans-serif;
+  background-color: #354463;
+}
+
+.what-we-do > * {
+  width: 80%;
+  margin: 0% 10% 0% 10%;
+}
+
+.what-we-do-heading {
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  justify-items: center;
+  padding-top: 12%;
+  margin-bottom: 10%;
+}
+
+.what-we-do-heading > div {
+  font-size: 0.8em;
+  background-color: white;
+  color: #354463;
+  padding: 2%;
+}
+.what-we-do-heading-content {
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.what-we-do-div {
+  display: grid;
+  grid-row-gap: 5em;
+  padding-top: 0;
+}
+
+.what-we-do-div-content {
+  display: grid;
+  width: 80%;
+  grid-template-rows: 4fr 1fr 2.8fr 2.2fr;
+  align-items: center;
+  padding: 5%;
+  position: relative;
+  background-color: white;
+  margin-bottom: 5%;
+  height: 25em;
+}
+.what-we-do-img {
+  width: 80%;
+  position: absolute;
+  top: -15%;
+  left: 10%;
+}
+.what-we-do-div-content h3 {
+  grid-area: 2/1/3/2;
+  text-align: center;
+  font-size: 1em;
+}
+
+.what-we-do-div-content p {
+  grid-area: 3/1/4/2;
+  text-align: center;
+  font-size: 0.95em;
+}
+.what-we-do-div-content-btn {
+  grid-area: 4/1/5/2;
+  border: none;
+  background-color: #c1f7d5;
+  text-align: center;
+  font-size: 1em;
+  cursor: pointer;
+  padding: 5%;
+  border-radius: 3em;
+}
+
+.climate-change {
+  height: 63em;
+  background-image: url("../home/did-you-know-background.png");
+  background-size: 550% auto;
+  background-position-x: 45%;
+  background-position-y: 75%;
+  display: grid;
+  grid-template-rows: 2fr 3fr;
+}
+
+.climate-change-head-cots {
+  font-family: "FloodFont";
+  color: #ffffff;
+  font-size: 2.5em;
+  margin: 10% 0% 0% 10%;
+}
+
+.climate-change-head-btn {
+  background-color: #c1f7d5;
+  border: none;
+  color: #354463;
+  text-align: center;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin-left: 10%;
+  border-radius: 3em;
+  padding: 2% 2% 2% 2%;
+}
+
+.climate-change-lower {
+  width: 80%;
+  margin: 0% 10% 0% 10%;
+  position: relative;
+}
+
+.climate-change-lower-dyk {
+  width: 10em;
+  height: auto;
+  text-align: center;
+  background-color: #354463;
+  color: #ffffff;
+  padding: 2%;
+  position: absolute;
+  top: -3%;
+  left: 25%;
+}
+
+.climate-change-lower-content {
+  height: 8em;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 0% 0% 10% 0%;
+}
+
+.climate-change-lower-content-heading {
+  margin-left: 10%;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+.climate-change-lower-content-info {
+  margin-left: 10%;
+}
+
+.climate-change-lower-content-logo {
+  padding: 10% 5% 10% 5%;
+  background-color: aquamarine;
+  border-radius: 50%;
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.climate-change-lower-content-logo > img {
+  padding: 25%;
+}
+
+.stories {
+  width: 80%;
+  margin: 10%;
+  display: grid;
+  grid-template-rows: 4fr 4fr 1fr;
+  grid-gap: 4%;
+  position: relative;
+}
+
+.stories-head {
+  background-color: #354463;
+  color: #ffffff;
+  text-align: center;
+  padding: 2% 10% 2% 10%;
+  position: absolute;
+  top: -5%;
+  left: 25%;
+  margin-top: 5%;
+  font-size: 1.2em;
+}
+
+.stories-img {
+  width: 100%;
+}
+
+.stories-content {
+  background-color: #354463;
+  text-align: center;
+  color: white;
+
+  padding: 5%;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+.stories-content > p {
+  font-size: 1.3em;
+}
+.stories-content > h5 {
+  font-size: 0.9em;
+}
+.stories-btn {
+  background-color: #c1f7d5;
+  border: none;
+  color: #354463;
+  text-align: center;
+  font-size: 1.1em;
+  cursor: pointer;
+  position: relative;
+  left: 20%;
+  border-radius: 3em;
+  padding: 5% 20% 5% 20%;
+}
+
+.things-to-do {
+  display: grid;
+  grid-template-rows: minmax(0, 2fr) minmax(0, 5fr) minmax(0, 5fr);
+  justify-items: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  background-color: #354463;
+}
+.things-to-do > * {
+  width: 80%;
+  padding-bottom: 20%;
+}
+.slogan {
+  font-family: "FloodFont", sans-serif;
+  line-height: 2.5rem;
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+}
+.event,
+.news {
+  display: grid;
+  height: 100%;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+.event-head {
+  position: relative;
+  top: 70%;
+  background-color: white;
+  color: #354463;
+  font-size: 1.2em;
+  padding: 2% 5% 2% 5%;
+}
+.event > img,
+.news > img {
+  width: 100%;
+}
+.event-btn {
+  background-color: #c1f7d5;
+  border: none;
+  color: #354463;
+  text-align: center;
+  font-size: 1.1em;
+  cursor: pointer;
+  border-radius: 3em;
+  padding: 5% 10% 5% 10%;
+  margin: 5%;
+}
+.event-title {
+  width: 95%;
+  color: white;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+.event-content {
+  color: white;
+  font-size: 1em;
+  width: 90%;
+}
+
+.subscribe {
+  background-color: #c1f7d5;
+  display: grid;
+  padding: 10% 8% 20% 8%;
+  grid-row-gap: 20%;
+  grid-column-gap: 5%;
+}
+
+.subscribe > p {
+  grid-area: 1/1/2/3;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.subscribe > input {
+  grid-area: 2/1/3/2;
+  border: none;
+  border-radius: 2em;
+  text-align: center;
+}
+
+.subscribe > button {
+  grid-area: 2/2/3/3;
+  color: #c1f7d5;
+  background-color: #354463;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 3% 3%;
+  border-radius: 3em;
+}
+
+.foot {
+  padding: 5%;
+  display: grid;
+  grid-row-gap: 0%;
+  grid-column-gap: 15%;
+}
+
+.title > h1 {
+  font-size: 1.9em;
+}
+
+.cots {
+  grid-area: 3/2;
+  text-align: right;
+  font-size: 2.2em;
+  font-family: "FloodFont";
+  padding: 5%;
+}
+
+.social-link {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 5px;
+}
+
+.help {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 10%;
+}
+
+.title {
+  margin-right: 3%;
+}

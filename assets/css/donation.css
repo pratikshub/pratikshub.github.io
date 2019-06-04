@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap");
+
+@font-face {
+  font-family: "FloodFont";
+  src: url("../flood-std/floodstd.otf");
+}
+
+header {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  color: #354463;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.main-page {
+  background-image: url(../donation/annie-spratt-427340-unsplash@2x.png);
+  /* background-position-x: 160%; */
+}
+
+.main-page-head > h1 {
+  font-family: "FloodFont";
+  color: white;
+  font-size: 2em;
+  padding: 0% 10% 0% 10%;
+}
+
+.donation-form {
+  width: 84%;
+  background-color: #354463;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 3fr 2fr 2fr;
+  color: white;
+}
+
+.donation-form > div {
+  width: 80%;
+  margin: auto;
+}
+
+.info-header {
+  font-weight: 700;
+  font-size: 1.1em;
+  margin-bottom: 10%;
+}
+.form{
+  position: relative;
+}
+input {
+  width: 100%;
+  padding: 0.3em;
+  border: none;
+  border-bottom: solid 1.5px #c1f7d5;
+  background-color: #354463;
+  margin-bottom: 1em;
+  color: white;
+}
+label {
+  position: absolute;
+  top: 0.5em;
+  font-size: 0.8em;
+  left: 0.2em;
+  color: #888888;
+
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  pointer-events: none;
+}
+input:focus{
+  outline: none;
+}
+input:focus ~ label,
+input:valid ~ label
+{
+  left: 0em;
+  top: -1em;
+  font-size: 0.85em;
+  color: white;
+  /* text-transform: uppercase; */
+}
+
+
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name > div {
+  width: 46.5%;
+}
+
+.addr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addr .city {
+  width: 46.5%;
+}
+
+.addr .state {
+  width: 19.75%;
+}
+
+.addr .zip {
+  width: 19.75%;
+}
+
+.card-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 1.5em;
+  font-size: 0.8em;
+}
+.nmbr{
+  width: 100%;
+}
+.exp {
+  display: flex;
+  width: 46.5%;
+  height: 3em;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+}
+
+.code {
+  width: 46.5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+  cursor: pointer;
+  color: #354463;
+  width: 100%;
+  background-color: #c1f7d5;
+  padding: 0.5em 0.7em;
+  font-size: 0.9em;
+  border: 0 solid transparent;
+  border-radius: 2em;
+  font-weight: 800;
+  text-align: center;
+  line-height: 1.8em;
+  margin: 1.5em 0;
+}
+
+.home {
+  margin-bottom: 5%;
+}
+.confirm a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.foot {
+  padding: 5%;
+  display: grid;
+  grid-row-gap: 0%;
+  grid-column-gap: 15%;
+  color: #354463;
+}
+
+.title > h1 {
+  font-size: 1.9em;
+}
+
+.cots {
+  grid-area: 3/2;
+  text-align: right;
+  font-size: 2.2em;
+  font-family: "FloodFont";
+  padding: 5%;
+}
+
+.social-link {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 5px;
+}
+
+.help {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 10%;
+}
+
+.title {
+  margin-right: 3%;
+}
+
+@media screen and (min-width: 500px) {
+  header {
+    font-size: 1.7em;
+  }
+
+  .main-page-head > h1 {
+    font-size: 2em;
+    line-height: 2em;
+    padding: 0% 25% 0% 15%;
+  }
+
+  .donation-form {
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .info-header {
+    padding-bottom: 2em;
+    margin-bottom: 0%;
+    
+  }
+  label {
+    font-size: 0.8em;
+  }
+
+  .confirm {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .button {
+    width: 15em;
+    order: 1;
+    margin-top: 3.5em;
+    font-size: 1em;
+    padding: 1em 0.7em;
+  }
+
+  .home {
+    margin-top: 4.5em;
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .main-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-size: cover;
+  }
+
+  .main-page-head > h1 {
+    font-size: 3em;
+    line-height: 2em;
+    text-align: left;
+    grid-area: 1/2/1/2;
+  }
+
+  .person-info {
+    margin: auto;
+  }
+
+  .card-info {
+    margin: auto;
+  }
+
+  .info-header {
+    font-size: 1.5em;
+    padding: 2em 0;
+  }
+
+  .donation-form {
+    margin: 4em 4em 4em 4em;
+    grid-area: 1/1/1/1;
+  }
+
+  .button {
+    padding: 0.8em 0.7em;
+  }
+
+  .foot {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .social-link {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+
+  .help {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+
+  .title {
+    margin-right: 3%;
+  }
+
+  .cots {
+    font-family: "FloodFont";
+    font-size: 2.5em;
+    padding-left: 5%;
+  }
+}
